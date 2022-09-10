@@ -1,1 +1,1 @@
-console.log("hachikox ;)")
+alert("hikmetkaya35 ;)")
