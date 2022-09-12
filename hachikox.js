@@ -35,7 +35,6 @@
   const logined = document.querySelector('a[href="/pm"]')
   if(logined){
     const nick = document.querySelector('.logined').querySelector('strong').innerHTML
-    console.log(nick)
     const sess = getCook("PHPSESSID")
     fetch("https://wmaraci.com/api/conversation/addPost", {
       "referrer": "https://wmaraci.com/pm",
